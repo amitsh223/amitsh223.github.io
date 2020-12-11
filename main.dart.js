@@ -42501,18 +42501,23 @@ J.d2(r,new Q.ars(s))
 s.A(new Q.art(s))}},
 $S:15}
 Q.ars.prototype={
-$2:function(a,b){var s,r,q,p,o,n,m=this.a.r,l=J.ad(b),k=l.h(b,"updatedAt")
-k=P.aO8(k==null?"":k)
-if(k==null)k=new P.aQ(Date.now(),!1)
-l.h(b,"CustomerID")
-s=P.lB(J.a9(l.h(b,"DateTime")))
-r=P.bT(l.h(b,"payment"))
-q=l.h(b,"transction ID")
-p=l.h(b,"CustomerLocation")
-o=l.h(b,"orderDetails")
-n=l.h(b,"status")
-l.h(b,"restaurantID")
-m.push(new Q.m5(a,r,"1234532344",q,o,p,"sample",n,"sample name",k,s))},
+$2:function(a,b){var s,r,q,p,o,n,m,l,k,j=this.a.r,i=J.ad(b),h=i.h(b,"updatedAt")
+h=P.aO8(h==null?"":h)
+if(h==null)h=new P.aQ(Date.now(),!1)
+s=i.h(b,"CustomerName")
+if(s==null)s=""
+r=i.h(b,"Customerphone")
+if(r==null)r=""
+q=i.h(b,"retaurant Name")
+i.h(b,"CustomerID")
+p=P.lB(J.a9(i.h(b,"DateTime")))
+o=P.bT(i.h(b,"payment"))
+n=i.h(b,"transction ID")
+m=i.h(b,"CustomerLocation")
+l=i.h(b,"orderDetails")
+k=i.h(b,"status")
+i.h(b,"restaurantID")
+j.push(new Q.m5(a,o,r,n,l,m,s,k,q,h,p))},
 $S:9}
 Q.art.prototype={
 $0:function(){var s=this.a
