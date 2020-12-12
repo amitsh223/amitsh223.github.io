@@ -1,6 +1,6 @@
 {
-    "name": "appkart_admin_panel",
-    "short_name": "appkart_admin_panel",
+    "name": "Pizza hungers",
+    "short_name": "Pizza hungers",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
