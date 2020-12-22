@@ -10297,8 +10297,12 @@ this.c=c},ax6:function ax6(a,b){this.a=a
 this.b=b},axc:function axc(a,b){this.a=a
 this.b=b},ax5:function ax5(a,b){this.a=a
 this.b=b},ax3:function ax3(a,b){this.a=a
-this.b=b},ax0:function ax0(){},axy:function axy(a){this.a=a},axm:function axm(){},axz:function axz(){},axl:function axl(a){this.a=a},axn:function axn(a){this.a=a},axo:function axo(a){this.a=a},axp:function axp(a){this.a=a},axq:function axq(a){this.a=a},axr:function axr(a){this.a=a},ax9:function ax9(a){this.a=a},axa:function axa(a){this.a=a},ax4:function ax4(a){this.a=a},ax1:function ax1(a,b){this.a=a
-this.b=b},ax_:function ax_(a){this.a=a},awY:function awY(a){this.a=a},awX:function awX(a){this.a=a},ax2:function ax2(a){this.a=a},awZ:function awZ(a){this.a=a},Hr:function Hr(){},Yd:function Yd(){},Ye:function Ye(){},Yf:function Yf(){},
+this.b=b},ax0:function ax0(){},axy:function axy(a){this.a=a},axm:function axm(){},axz:function axz(){},axl:function axl(a){this.a=a},axn:function axn(a){this.a=a},axo:function axo(a){this.a=a},axp:function axp(a){this.a=a},axq:function axq(a){this.a=a},axr:function axr(a){this.a=a},ax9:function ax9(a){this.a=a},axa:function axa(a,b){this.a=a
+this.b=b},ax4:function ax4(a,b){this.a=a
+this.b=b},ax1:function ax1(a,b,c){this.a=a
+this.b=b
+this.c=c},ax_:function ax_(a){this.a=a},awY:function awY(a){this.a=a},awX:function awX(a){this.a=a},ax2:function ax2(a,b){this.a=a
+this.b=b},awZ:function awZ(a){this.a=a},Hr:function Hr(){},Yd:function Yd(){},Ye:function Ye(){},Yf:function Yf(){},
 a1f:function(a,b,c,d,e,f){return new Z.Jp(a,d,c,e,"firebase_auth",d,a)},
 Jp:function Jp(a,b,c,d,e,f,g){var _=this
 _.d=a
@@ -39966,30 +39970,32 @@ else{this.a.dy=a
 return null}},
 $S:4}
 Z.axr.prototype={
-$0:function(){var s,r=this.a
-if(r.d.gbe().hr())if(r.f.length!==0){r.A(new Z.ax9(r))
+$0:function(){var s,r={},q=this.a
+if(q.d.gbe().hr())if(q.f.length!==0){q.A(new Z.ax9(q))
+r.a=!1
 s=new FileReader()
-s.readAsDataURL(r.r)
-W.bS(s,"loadend",new Z.axa(r),!1,t.J)}else E.dt("Please select image")},
+s.readAsDataURL(q.r)
+W.bS(s,"loadend",new Z.axa(r,q),!1,t.J)}else E.dt("Please select image")},
 $S:0}
 Z.ax9.prototype={
 $0:function(){this.a.go=!0},
 $S:0}
 Z.axa.prototype={
-$1:function(a){var s=new P.aR(Date.now(),!1).j(0),r=this.a
-S.cP(J.lh(S.cP(J.ll(K.mW().a,"gs://appkart-85d97.appspot.com")).a,s)).i_(0,r.r).gjb().au(0,new Z.ax4(r),t.P)},
+$1:function(a){var s=new P.aR(Date.now(),!1).j(0),r=this.b
+S.cP(J.lh(S.cP(J.ll(K.mW().a,"gs://appkart-85d97.appspot.com")).a,s)).i_(0,r.r).gjb().au(0,new Z.ax4(this.a,r),t.P)},
 $S:15}
 Z.ax4.prototype={
 $1:function(a){return this.Sy(a)},
-Sy:function(a){var s=0,r=P.L(t.P),q=this,p,o,n
+Sy:function(a){var s=0,r=P.L(t.P),q=this,p,o,n,m
 var $async$$1=P.H(function(b,c){if(b===1)return P.I(c,r)
 while(true)switch(s){case 0:s=2
 return P.U(S.cP(J.lj(a.a)).fi(0),$async$$1)
 case 2:p=c
-o=q.a
-n=t.P
-A.Jr().wg(0,o.db,o.fr).au(0,new Z.ax1(o,p),n)
-P.zb(P.ds(0,0,0,0,0,5),null,t.z).au(0,new Z.ax2(o),n)
+o=q.b
+n=q.a
+m=t.P
+A.Jr().wg(0,o.db,o.fr).au(0,new Z.ax1(n,o,p),m)
+P.zb(P.ds(0,0,0,0,0,5),null,t.z).au(0,new Z.ax2(n,o),m)
 return P.J(null,r)}})
 return P.K($async$$1,r)},
 $S:22}
@@ -39997,9 +40003,10 @@ Z.ax1.prototype={
 $1:function(a){return this.Sx(a)},
 Sx:function(a){var s=0,r=P.L(t.P),q=this,p,o
 var $async$$1=P.H(function(b,c){if(b===1)return P.I(c,r)
-while(true)switch(s){case 0:p=F.bN(u.E).ao(0,a.gtp(a).a.c.h(0,"uid"))
-o=q.a
-p.e.cG(0,p.b,P.aa(["email",o.db,"name",o.cx,"address",o.dy,"phone",o.fx,"role",o.dx,"Status","free","approveStatus",!0,"updatedAt",new P.aR(Date.now(),!1).di(),"id",a.gtp(a).a.c.h(0,"uid"),"imageUrl",J.a9(q.b)],t.X,t.z)).au(0,new Z.ax_(o),t.P)
+while(true)switch(s){case 0:q.a.a=!0
+p=F.bN(u.E).ao(0,a.gtp(a).a.c.h(0,"uid"))
+o=q.b
+p.e.cG(0,p.b,P.aa(["email",o.db,"name",o.cx,"address",o.dy,"phone",o.fx,"role",o.dx,"Status","free","approveStatus",!0,"updatedAt",new P.aR(Date.now(),!1).di(),"id",a.gtp(a).a.c.h(0,"uid"),"imageUrl",J.a9(q.c)],t.X,t.z)).au(0,new Z.ax_(o),t.P)
 return P.J(null,r)}})
 return P.K($async$$1,r)},
 $S:349}
@@ -40017,9 +40024,9 @@ Z.awX.prototype={
 $0:function(){this.a.go=!1},
 $S:0}
 Z.ax2.prototype={
-$1:function(a){var s=this.a
+$1:function(a){var s=this.b
 s.A(new Z.awZ(s))
-E.dt("Email already exist or rrror occured")},
+if(!this.a.a)E.dt("Email already exist or rrror occured")},
 $S:3}
 Z.awZ.prototype={
 $0:function(){this.a.go=!1},
