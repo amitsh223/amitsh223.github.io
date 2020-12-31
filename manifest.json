@@ -1,6 +1,6 @@
 {
-    "name": "Pizza hungers",
-    "short_name": "Pizza hungers",
+    "name": "vegigrow_admin",
+    "short_name": "vegigrow_admin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
