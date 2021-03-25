@@ -1,6 +1,6 @@
 {
-    "name": "pizza_hunger_web",
-    "short_name": "pizza_hunger_web",
+    "name": "Bhaiya admin",
+    "short_name": "Bhaiya_admin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
