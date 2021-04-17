@@ -1,6 +1,6 @@
 {
-    "name": "Bhaiya admin",
-    "short_name": "Bhaiya_admin",
+    "name": "matrimonial_web_admin",
+    "short_name": "matrimonial_web_admin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
