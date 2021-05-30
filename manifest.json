@@ -1,6 +1,6 @@
 {
-    "name": "matrimonial_web_admin",
-    "short_name": "matrimonial_web_admin",
+    "name": "grocery",
+    "short_name": "grocery",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
