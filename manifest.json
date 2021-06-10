@@ -1,6 +1,6 @@
 {
-    "name": "grocery",
-    "short_name": "grocery",
+    "name": "pizza_hunger_web",
+    "short_name": "pizza_hunger_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
