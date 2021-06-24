@@ -1,6 +1,6 @@
 {
-    "name": "pizza_hunger_web",
-    "short_name": "pizza_hunger_web",
+    "name": "Ng Fresh",
+    "short_name": "Ng Fresh",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
